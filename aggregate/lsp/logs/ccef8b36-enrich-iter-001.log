@@ -1,0 +1,21 @@
+[2026-11-22T12:28:44Z] === ENRICH ITERATION 1 START | repo=cecton/pure-rust-locales sha=ccef8b36 ===
+[2026-11-22T12:28:44Z] [iter=1] PHASE START: enrich repo=cecton/pure-rust-locales sha=ccef8b36 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ccef8b36-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ccef8b36a9d9dc98216ecf2149eb287f89885cad.nq.gz
+[2026-11-22T12:28:45Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T12:29:17Z] [iter=1] AST store loaded triples=2481714 load_secs=31 mem_mb=911 MB
+[2026-11-22T12:29:17Z] [iter=1] Step 2: Finding LSP targets mem_mb=911 MB
+[2026-11-22T12:29:18Z] [iter=1] LSP targets found call_sites=9688 imports=688 extends=0 implements=3 secs=1
+[2026-11-22T12:29:18Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=911 MB
+[2026-11-22T12:29:26Z] [iter=1] Position index built positions=175637 nodes_with_types=187723 secs=8 mem_mb=911 MB
+[2026-11-22T12:29:26Z] [iter=1] Step 3: Starting LSP resolution mem_mb=911 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T12:29:26Z] [iter=1] Resolving target type target_type=call_site count=9688
+[2026-11-22T12:29:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/lib.rs
+[2026-11-22T12:30:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=3 resolved=9393 errors=0 current=generate-api/src/generator.rs
+[2026-11-22T12:30:28Z] [iter=1] Target type resolved target_type=call_site resolved=9579 errors=0 secs=62 mem_mb=911 MB
+[2026-11-22T12:30:28Z] [iter=1] Resolving target type target_type=import_statement count=688
+[2026-11-22T12:30:36Z] [iter=1] Target type resolved target_type=import_statement resolved=688 errors=0 secs=8 mem_mb=911 MB
+[2026-11-22T12:30:36Z] [iter=1] Resolving target type target_type=implements_clause count=3
+[2026-11-22T12:30:37Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=1.9 files_done=0 resolved=0 errors=0 current=generate-api/src/generator.rs
+[2026-11-22T12:30:44Z] [iter=1] Target type resolved target_type=implements_clause resolved=3 errors=0 secs=7 mem_mb=911 MB
+[2026-11-22T12:32:00Z] [iter=1] Step 5: Writing final enrichment file triples=186755
+[2026-11-22T12:32:02Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ccef8b36a9d9dc98216ecf2149eb287f89885cad.nq.gz size_kb=2532
+[2026-11-22T12:32:02Z] [iter=1] PHASE END: enrich elapsed_s=199 elapsed_min=3.3 total_triples=186755

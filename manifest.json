@@ -382,6 +382,88 @@
       ],
       "ast": [
         "aggregate/ast/ccef8b36a9d9dc98216ecf2149eb287f89885cad/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ccef8b36a9d9dc98216ecf2149eb287f89885cad.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "defmt",
+          "ecosystem": "CARGO",
+          "version": "1.0.1",
+          "githubOrg": "knurling-rs",
+          "githubRepo": "defmt",
+          "githubUrl": "https://github.com/knurling-rs/defmt",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "nom",
+          "ecosystem": "CARGO",
+          "version": "8.0.0",
+          "githubOrg": "rust-bakery",
+          "githubRepo": "nom",
+          "githubCommit": "2cec1b3e4c9ccac62c902d60c00de6d1549ccbe1",
+          "githubTag": "8.0.0",
+          "githubUrl": "https://github.com/rust-bakery/nom",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nom-8.0.0/src/multi/mod.rs"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.100",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "18c2598afa0f996f56217ef128aa3a20ea1e9512",
+          "githubTag": "1.0.100",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.100/src/macros.rs"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/core_api/wrapper.rs"
+        },
+        {
+          "packageName": "indenter",
+          "ecosystem": "CARGO",
+          "version": "0.3.4",
+          "githubOrg": "yaahc",
+          "githubRepo": "indenter",
+          "githubCommit": "bc9fa3590264d0f7033705edde8379aaf0f357ef",
+          "githubTag": "v0.3.4",
+          "githubUrl": "https://github.com/yaahc/indenter",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indenter-0.3.4/src/lib.rs"
+        },
+        {
+          "packageName": "itertools",
+          "ecosystem": "CARGO",
+          "version": "0.8.2",
+          "githubOrg": "rust-itertools",
+          "githubRepo": "itertools",
+          "githubCommit": "dd7fd96b3246f607825420f12141ebd1e0c4185a",
+          "githubTag": "v0.8.2",
+          "githubUrl": "https://github.com/rust-itertools/itertools",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/itertools-0.8.2/src/lib.rs"
+        },
+        {
+          "packageName": "cargo_metadata",
+          "ecosystem": "CARGO",
+          "version": "0.23.0",
+          "githubOrg": "oli-obk",
+          "githubRepo": "cargo_metadata",
+          "githubCommit": "2af44dfa5be8335c83af9f2613e492b0df2ee609",
+          "githubTag": "0.23.0",
+          "githubUrl": "https://github.com/oli-obk/cargo_metadata",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cargo_metadata-0.23.0/src/lib.rs"
+        }
       ]
     }
   ],
